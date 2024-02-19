@@ -5,14 +5,13 @@ class DrugImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      elevation: 10,
-      child: Container(
-        decoration: BoxDecoration(borderRadius: BorderRadius.circular(50)),
-        child: Image.network(
-          'https://c8.alamy.com/comp/2AAJF1X/structural-formula-of-paracetamol-acetaminophen-2AAJF1X.jpg',
-        ),
-      ),
+    return Container(
+      height: 175,
+      width: 300,
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          image: const DecorationImage(
+              fit: BoxFit.fill, image: AssetImage('assets/images/medi2.jpg'))),
     );
   }
 }

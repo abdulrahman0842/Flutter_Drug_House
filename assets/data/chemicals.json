@@ -1,0 +1,94 @@
+{
+  "chemicals": [
+    {
+      "name": "Water",
+      "image": "water.jpg",
+      "molecularFormula": "H2O",
+      "iupacname": "Water",
+      "about": "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance.",
+      "mechanism": "Water molecules form hydrogen bonds with each other, creating its unique properties.",
+      "uses": "Water is essential for life, used in various industrial processes, and as a solvent in chemistry.",
+      "effects": "Consuming inadequate amounts of water can lead to dehydration and various health issues."
+    },
+    {
+      "name": "Carbon Dioxide",
+      "image": "co2.jpg",
+      "molecularFormula": "CO2",
+      "iupacname": "Carbon dioxide",
+      "about": "Carbon dioxide is a colorless gas with a density about 53% higher than that of dry air.",
+      "mechanism": "Carbon dioxide is a greenhouse gas and contributes to global warming by trapping heat in the Earth's atmosphere.",
+      "uses": "Carbon dioxide is used in carbonation of beverages, fire extinguishers, and as a refrigerant.",
+      "effects": "Excessive levels of carbon dioxide in the atmosphere contribute to climate change and ocean acidification."
+    },
+    {
+      "name": "Oxygen",
+      "image": "oxygen.jpg",
+      "molecularFormula": "O2",
+      "iupacname": "Oxygen",
+      "about": "Oxygen is a chemical element with the symbol O and atomic number 8. It is a member of the chalcogen group in the periodic table.",
+      "mechanism": "Oxygen is essential for respiration in aerobic organisms and plays a vital role in combustion processes.",
+      "uses": "Oxygen is used in medical applications, metal cutting, welding, and various industrial processes.",
+      "effects": "Oxygen deficiency can lead to hypoxia, while excessive oxygen levels can lead to oxygen toxicity."
+    },
+    {
+      "name": "Sodium Chloride",
+      "image": "salt.jpg",
+      "molecularFormula": "NaCl",
+      "iupacname": "Sodium chloride",
+      "about": "Sodium chloride is the chemical name for salt. It occurs naturally in many parts of the world as the mineral halite.",
+      "mechanism": "Sodium chloride dissociates into sodium and chloride ions in water, making it a strong electrolyte.",
+      "uses": "Sodium chloride is used as a seasoning, food preservative, and in various industrial processes.",
+      "effects": "Excessive consumption of sodium chloride can lead to high blood pressure and other health issues."
+    },
+    {
+      "name": "Hydrogen Peroxide",
+      "image": "h2o2.jpg",
+      "molecularFormula": "H2O2",
+      "iupacname": "Hydrogen peroxide",
+      "about": "Hydrogen peroxide is a pale blue liquid, slightly more viscous than water. It is a weak acid.",
+      "mechanism": "Hydrogen peroxide decomposes into water and oxygen gas, releasing oxygen when it comes into contact with catalase enzyme.",
+      "uses": "Hydrogen peroxide is used as a disinfectant, bleaching agent, and in rocket propulsion.",
+      "effects": "Concentrated hydrogen peroxide can cause irritation, burns, and is corrosive to organic tissues."
+    },{
+      "name": "Water",
+      "image": "water.jpg",
+      "molecularFormula": "H2O",
+      "iupacname": "Water",
+      "about": "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance.",
+      "mechanism": "Water molecules form hydrogen bonds with each other, creating its unique properties.",
+      "uses": "Water is essential for life, used in various industrial processes, and as a solvent in chemistry.",
+      "effects": "Consuming inadequate amounts of water can lead to dehydration and various health issues."
+    },
+    {
+      "name": "Water",
+      "image": "water.jpg",
+      "molecularFormula": "H2O",
+      "iupacname": "Water",
+      "about": "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance.",
+      "mechanism": "Water molecules form hydrogen bonds with each other, creating its unique properties.",
+      "uses": "Water is essential for life, used in various industrial processes, and as a solvent in chemistry.",
+      "effects": "Consuming inadequate amounts of water can lead to dehydration and various health issues."
+    },
+    {
+      "name": "Water",
+      "image": "water.jpg",
+      "molecularFormula": "H2O",
+      "iupacname": "Water",
+      "about": "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance.",
+      "mechanism": "Water molecules form hydrogen bonds with each other, creating its unique properties.",
+      "uses": "Water is essential for life, used in various industrial processes, and as a solvent in chemistry.",
+      "effects": "Consuming inadequate amounts of water can lead to dehydration and various health issues."
+    },
+    {
+      "name": "Water",
+      "image": "water.jpg",
+      "molecularFormula": "H2O",
+      "iupacname": "Water",
+      "about": "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance.",
+      "mechanism": "Water molecules form hydrogen bonds with each other, creating its unique properties.",
+      "uses": "Water is essential for life, used in various industrial processes, and as a solvent in chemistry.",
+      "effects": "Consuming inadequate amounts of water can lead to dehydration and various health issues."
+    }
+    
+  ]
+}

@@ -1,6 +1,9 @@
 import 'dart:async';
+import 'package:flut_first/pages/ListPage.dart';
+import 'package:flut_first/pages/drug_Display_Page.dart';
+// import 'package:flut_first/pages/home_page.dart';
 import 'package:flutter/material.dart';
-import 'ListPage.dart';
+
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -12,11 +15,11 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 5), () {
-      Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(
-            builder: (context) => ListPage(),
-          ));
+      // Navigator.pushReplacement(
+      //     context,
+      //     MaterialPageRoute(
+      //       builder: (context) => ListPage(),
+      //     ));
     });
   }
 

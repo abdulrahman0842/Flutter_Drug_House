@@ -1,3 +1,15 @@
+import 'dart:convert';
+
+class DrugModel {
+  static List<Drug> drugs = [];
+
+  static void loadDrugsFromJson(String json) {
+    final List<Map<String, dynamic>> drugList = jsonDecode(json);
+    drugs =
+        drugList.map((Map<String, dynamic> map) => Drug.fromMap(map)).toList();
+  }
+}
+
 class Drug {
   final String name;
   final String image;

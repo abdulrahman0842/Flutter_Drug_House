@@ -1,23 +1,17 @@
 import 'package:flut_first/widgets/myTheme.dart';
 import 'package:flutter/material.dart';
 
-var sideEffects = [
-  " Headache",
-  " dizziness",
-  " nausea",
-  " vomiting",
-  " loss of appetite ",
-  " stomach/abdominal pain",
-  " gas ",
-  " diarrhoea"
-];
+class DataCard extends StatelessWidget {
+  final String subHeading;
+  final String cardContent;
+  const DataCard(
+      {super.key, required this.subHeading, required this.cardContent});
 
-class DrugEffects extends StatelessWidget {
-  const DrugEffects({super.key});
   @override
   Widget build(BuildContext context) {
     return Card(
       color: Colors.blueGrey.shade50,
+      elevation: 7,
       child: Container(
         padding: EdgeInsets.all(8),
         decoration: const BoxDecoration(
@@ -30,16 +24,16 @@ class DrugEffects extends StatelessWidget {
                   Color.fromARGB(249, 111, 166, 218),
                 ])),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Adverse Effects:",
-                style: MyTheme.lightTheme(context).textTheme.displaySmall),
-            SizedBox(
-              height: 100,
-              child: ListView.builder(
-                  itemBuilder: (context, index) {
-                    return Text('\u2022 ' + sideEffects[index]);
-                  },
-                  itemCount: sideEffects.length),
+            Text(subHeading,
+                style: MyTheme.lightTheme(context).textTheme.displayMedium),
+            const SizedBox(
+              height: 5,
+            ),
+            Text(
+              cardContent,
+              style: MyTheme.lightTheme(context).textTheme.displaySmall,
             ),
           ],
         ),
